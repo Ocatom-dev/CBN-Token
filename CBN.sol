@@ -79,7 +79,7 @@ contract CBN is ERC20Detailed {
   string constant tokenName = "CRYPTO BASE NETWORK";
   string constant tokenSymbol = "CBN";
   uint8  constant tokenDecimals = 18;
-  uint256 _totalSupply = 100000*10**18;
+  uint256 _totalSupply = 500000000*10**18;
   uint256 public basePercent = 100;
   uint256 public _burnStopAmount;
   uint256 public _lastTokenSupply;
